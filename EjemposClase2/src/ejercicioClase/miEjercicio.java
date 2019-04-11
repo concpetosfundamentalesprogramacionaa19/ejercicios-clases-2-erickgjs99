@@ -51,7 +51,7 @@ public class miEjercicio {
         
          System.out.printf("Su nombre es %s\n\n\t "
                 +"Su apellido es %s \n\n\t Su edad es %s \n\n\t Su ciudad es %s"
-                 +"Su pais es %s"+" \n\n\t Sus notas son %s, %s"+
+                 +" Su pais es %s"+" \n\n\t Sus notas son %s, %s"+
                  " \n\n\tSu promedio total es de %s\n"
                 ,nombre,apellido,edad,ciudad,pais,nota1,nota2,totalprom);
 }}
