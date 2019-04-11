@@ -38,9 +38,14 @@ public class EjemposClase23 {
         System.out.println("Por favor ingresa tu ciudad");
         ciudad = entrada.nextLine();
         
+       /**
         System.out.println("Su nombre es : "+nombre+"\n\n\t"+
                     "            Sus apellidos es: "+apellido+", edad: "+edad+
         "\n"+"Ciudad: "+ciudad);
+        */
+        System.out.printf("Su nombre es %s\n\n\t "
+                +"Su apellido es %s \n\n\t Su edad es %s \n\n\t Su ciudad es %s" 
+                ,nombre,apellido,edad,ciudad);
     }
     
 }
